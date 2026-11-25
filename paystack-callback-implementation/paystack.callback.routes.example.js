@@ -24,7 +24,10 @@ const paystackCallback = createPaystackCallbackController({
       provider: "PAYSTACK",
       providerReference,
     }),
+  
+hello
 
+  
   // Implement this adapter by calling your existing PaymentEngine /
   // PaymentOrchestrator state-transition method. Do not create a new payment.
   reconcileVerifiedTransaction: reconcileVerifiedPaystackPayment,
