@@ -36,6 +36,8 @@ const paystackCallback = createPaystackCallbackController({
   errorPath: "/payment/error",
 });
 
+hi
+
 router.get("/redirect/paystack", paystackCallback);
 
 export default router;
